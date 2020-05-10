@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body {
+  font-family: 'Roboto', sans-serif;;
+}
+
+header {
+  background-color: #fff;
+  position:fixed;
+  top:0;
+  left:0;
+  border-bottom: 1px solid #ebebeb;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 100;
+}
+
+.header {
+  display:block;
+  position:relative;
+  padding-left: 95px;
+  padding-right: 80px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+}
+
+.logo {
+  margin-top: 21px;
+}
+
+.searchBar {
+  margin-top: 15px;
+  border: 1px solid #ebebeb;
+  padding: 0;
+  border-radius: 10px;
+  height: 50px;
+  font-size: 14px;
+}
+
+.inputCheckin {
+  margin: 0;
+  border-radius: 10px 0 0 10px;
+  border: none;
+  height: 48px;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.inputCheckout {
+  margin: 0;
+  border: none;
+  height: 48px;
+  width: 30%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.inputGuest {
+  margin: 0;
+  border: none;
+  height: 48px;
+  width: 28%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.searchButton {
+  background-color: #fff;
+  margin: 0;
+  border: none;
+  border-bottom: 1px solid #ebebeb;
+  padding: 0;
+  height: 48px;
+  width: 10%;
+  border-radius: 0 10px 10px 0;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.singUp {
+  background-color: #fff;
+  height: 40px;
+  border-radius: 25px;
+  border: 2px solid #ebebeb;
+  font-size: 14px;
+  margin-top: 20px;
+  padding: 0 10px 0 10px;
+}
+
+.singUp-aling {
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.content {
+  padding: 100px 80px 40px 80px;
+}
+
+.results {
+  padding: 0 80px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  border: none;
+  padding: 0px;
+  width: 19rem;
+  margin: 1rem;
+}
+
+.card:hover {
+  cursor: pointer;
+  background-color: #ebebeb;
+}
+
+.card-body {
+  padding: 5px 0;
+}
+
+.type {
+  margin: 0 0 12px;
+  font-size: 14px;
+  color: #717171;
+  line-height: 18px !important;
+  align-items: center !important;  
+  display: inline-flex !important;
+  width: 100% !important;
+}
+
+.title {
+  font-weight: 400 !important;
+  color: #222222 !important;
+  font-size: 18px !important;
+  line-height: 24px !important
+}
+
+.description {
+  margin-top: 0;
+  font-size: 14px;
+  color: #717171;
+  line-height: 18px !important;
+  align-items: center !important;  
+  display: inline-flex !important;
+  width: 100% !important;
+}
+
+.price {
+  margin: 35px 0 0 0;
+  font-size: 18px;
+}
+
+.totalPrice {
+  margin-top: 0;
+  margin: 0;
+  font-size: 14px;
+  color: #717171;
+  line-height: 18px !important;
+  align-items: center !important;  
+  display: inline-flex !important;
+  width: 100% !important;
+}
+
+.footer {
+  background-color: #fff;
+  bottom:0;
+  left: 0;
+  height: 80px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border-top: 1px solid #ebebeb;
+  padding: 24px 0px;
+  z-index: 100;
+}
+
